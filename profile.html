@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title  -->
+    <title>Welcome to BrandShop</title>
+
+    <!-- bootstrap 5.3    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- google metarials  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@16.0.3/build/css/intlTelInput.css">
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/styles.css"> <!--Styles-->
+
+</head>
+
+<body class="dash">
+    <!-- navbar part start here  -->
+    <section class="navBar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/LOGO(1).png" height="60px" alt=""
+                        class="img-fluid"></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="navProfile">
+                                    <img src="images/user(1).png" class="img-fluid" loading="lazy" alt="">
+                                    <!-- <p>Profile</p> -->
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu rounded-0 position-absolute" style="right: 0;
+                        left: auto;">
+                                <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar part end here  -->
+
+    <div class="panelMain">
+        <!-- sidebar part start here  -->
+        <nav class="navbar-aside navbar-static-side" role="navigation">
+            <div class="user_sidebar">
+                <ul>
+                    <li class="active">
+                        <a href="profile.html"><span class="material-symbols-outlined"> person </span>Profile</a>
+                    </li>
+                    <li>
+                        <a href="activeBrands.html"><span class="material-symbols-outlined"> sell </span>Active
+                            Brands</a>
+                    </li>
+                    <li>
+                        <a href="Wallet.html"><span class="material-symbols-outlined"> account_balance_wallet
+                            </span>Wallet</a>
+                    </li>
+                    <li>
+                        <a href="transections.html"><span class="material-symbols-outlined"> overview
+                            </span>Transections</a>
+                    </li>
+                    <li>
+                        <a href="security.html"><span class="material-symbols-outlined"> security </span>Security</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar part end here  -->
+
+        <!-- page content start here  -->
+        <div id="wrapper">
+            <div class="content-wrapper container" style="min-height: 80vh;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page_title">Profile Info</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="" method="post">
+                            <div class="profile_info">
+                                <div class="row">
+                                    <div class="col-md-6 m-auto">
+                                        <div class="profile_image">
+                                            <label for="profile">
+                                                <img src="images/user(1).png" alt="" class="img-fluid profile_pic">
+                                                <div class="camera_bg">
+                                                    <i class="fa-solid fa-camera"></i>
+                                                </div>
+                                            </label>
+                                            <h4>@Jhone_Due</h4>
+                                            <input class="file_upload" type="file" id="profile" hidden>
+                                        </div>
+                                        <!-- profile complitation start -->
+                                        <div class="profile_progress">
+                                            <h4>Profile Complitation(<span>10%</span>)</h4>
+                                            <div class="progress rounded-0" role="progressbar"
+                                                aria-label="Default striped example" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-striped" style="width: 10%"></div>
+                                            </div>
+                                            <ul>
+                                                <li class="complete">Registration <i class="fa-solid fa-check"></i></li>
+                                                <li>Eamil & Mobile varification <i class="fa-solid fa-check"></i></li>
+                                                <li class="">Personal Details <i class="fa-solid fa-check"></i></li>
+                                                <li>withdrawal Account <i class="fa-solid fa-check"></i></li>
+                                                <li>withdrawal password <i class="fa-solid fa-check"></i></li>
+                                                <li>KYC Varification <i class="fa-solid fa-check"></i></li>
+                                                <li>Subscribe to a brand<i class="fa-solid fa-check"></i></li>
+                                            </ul>
+
+                                        </div>
+                                        <!-- profile complitation end -->
+                                        <div class="form_group">
+                                            <h6>User Name</h6>
+                                            <input type="text" disabled placeholder="User name" value="Jhone_Due"
+                                                class="form-control rounded-0">
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Email</h6>
+                                            <input type="email" placeholder="email address" disabled
+                                                value="ex***le@email.com" class="form-control rounded-0">
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Phone</h6>
+                                            <input type="text" placeholder="Phone Number" value=""
+                                                class="form-control rounded-0 mobile_code">
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Login password</h6>
+                                            <div class="inp_group">
+                                                <input type="text" placeholder="Login password" value="********"
+                                                    class="form-control rounded-0">
+                                                <a href="security.html" class="btn_primary">Update</a>
+                                            </div>
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Withdraw password</h6>
+                                            <div class="inp_group">
+                                                <input type="text" placeholder="Withdraw password" value="******"
+                                                    class="form-control rounded-0">
+                                                <button class="btn_primary">Create</button>
+                                            </div>
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Full Name</h6>
+                                            <input type="text" placeholder="Full name" value="Jhone Due"
+                                                class="form-control rounded-0">
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Gender</h6>
+                                            <select name="" id="" class="form-control rounded-0">
+                                                <option value="" selected disabled>Select Gender</option>
+                                                <option value="">Male</option>
+                                                <option value="">Female</option>
+                                                <option value="">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group">
+                                            <h6>Date Of Birth</h6>
+                                            <input type="date" placeholder="Full name" value="Jhone Due"
+                                                class="form-control rounded-0">
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn_primary">Update</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- page content end here  -->
+    </div>
+    <!-- main section part end here  -->
+
+    <!-- footer section start here  -->
+    <footer>
+        <div class="container-fluid">
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer_logo">
+                            <img src="images/LOGO(1).png" loading="lazy" alt="" class="img-fluid">
+                            <h6>Discover top deals and recommendations through our affiliate website!</h6>
+                            <div class="footerSocial">
+                                <ul>
+                                    <li><a href="facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2  col-6">
+                        <div class="footerLinks">
+                            <ul>
+                                <h6>Important links</h6>
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="Privay&policy.html">Privay & Policy</a></li>
+                                <li><a href="terms&conditions.html">Terms & conditions</a></li>
+                                <li><a href="about.html">About us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <div class="footerLinks">
+                            <ul>
+                                <h6>Important links</h6>
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="Privay&policy.html">Privay & Policy</a></li>
+                                <li><a href="terms&conditions.html">Terms & conditions</a></li>
+                                <li><a href="about.html">About us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="appsLinks">
+                            <h1>Download our mobile apps</h1>
+                            <div class="stores">
+                                <a href="#">
+                                    <img src="images/Apple.png" alt="" class="img-fluid">
+                                </a>
+                                <a href="#">
+                                    <img src="images/store.Play.png" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <p>Copyright ©2024 <a href="https://futuregenit.com" target="_blank">Futuregenit</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end here  -->
+
+    <!-- app menu part start here  -->
+    <section class="appMenu">
+        <a href="brands.html">
+            <span class="material-symbols-outlined"> star </span>
+            <p>Brands</p>
+        </a>
+        <a href="earnings.html">
+            <span class="material-symbols-outlined"> trending_up </span>
+            <p>Earnings</p>
+        </a>
+        <a href="index.html">
+            <span class="material-symbols-outlined"> home </span>
+            <p>Home</p>
+        </a>
+        <a href="wallet.html">
+            <span class="material-symbols-outlined"> account_balance_wallet </span>
+            <p>Wallet</p>
+        </a>
+        <a type="button" class="menuOpen">
+            <span class="material-symbols-outlined"> grid_view </span>
+            <p>Menu</p>
+        </a>
+    </section>
+    <!-- menu options  -->
+    <div class="mdal_  mmenu">
+        <div class="mdal_content">
+            <div class="mdal_head bg-white">
+                <div class="w-50"></div>
+                <button class="bt_close text-dark"><i class="fa-solid fa-x"></i></button>
+            </div>
+            <div class="mdal_body">
+
+                <div class="user_sidebar pt-0">
+                    <ul class="pt-0">
+                        <li class="active">
+                            <a href="profile.html"><span class="material-symbols-outlined"> person </span>Profile</a>
+                        </li>
+                        <li>
+                            <a href="activeBrands.html"><span class="material-symbols-outlined"> sell </span>Active
+                                Brands</a>
+                        </li>
+                        <li>
+                            <a href="Wallet.html"><span class="material-symbols-outlined"> account_balance_wallet
+                                </span>Wallet</a>
+                        </li>
+                        <li>
+                            <a href="transections.html"><span class="material-symbols-outlined"> overview
+                                </span>Transections</a>
+                        </li>
+                        <li>
+                            <a href="security.html"><span class="material-symbols-outlined"> security
+                                </span>Security</a>
+                        </li>
+                        <li>
+                            <a href="Logout.html"><span class="material-symbols-outlined"> logout
+                                </span>Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- app menu part end here  -->
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--Jquery Cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script> <!--Bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menuOpen").click(function () {
+                $(".mmenu").fadeIn("slow");
+            });
+            $(".bt_close").click(function () {
+                $(".mmenu").fadeOut("slow");
+            })
+        })
+        $(document).ready(function () {
+
+            var readURL = function (input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('.profile_pic').attr('src', e.target.result);
+                    }
+
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+
+            $(".file_upload").on('change', function () {
+                readURL(this);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Country Code Selection
+            $(".mobile_code").intlTelInput({
+                initialCountry: "BD",
+                separateDialCode: true,
+            });
+        });
+    </script>
+
+</body>
+
+</html>

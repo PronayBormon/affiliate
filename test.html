@@ -1,0 +1,969 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- title here  -->
+  <title>Welcome to Shopify </title>
+  <!-- fontawsome kit  -->
+  <script src="https://kit.fontawesome.com/526d8ffd69.js" crossorigin="anonymous"></script>
+  <!-- bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- owl caousel css  -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- custom fonts  -->
+  <link rel="stylesheet" href="fonts/helvetica/stylesheet.css">
+  <!-- css  -->
+  <link rel="stylesheet" href="css/pusePlay.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- media.css  -->
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+  <!-- navbar start  -->
+  <div class="container-fluid" style="position: sticky; top: 0; left: 0; z-index: 9; width: 100%;">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 px-0">
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
+          <div class="container">
+            <a class="navbar-brand p-2" href="#"><img src="images/logo.png" class="img-fluid" alt=""></a>
+            <!-- show in mobile version -->
+            <div>
+              <ul class="navbar-nav second_ul_block ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link btn-login block_login" aria-current="page" href="#home">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn_trial block_signup" aria-current="page" href="#service">Sign up</a>
+                </li>
+              </ul>
+            </div>
+            <!-- .. -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Solution</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#service">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">Resource</a>
+                </li>
+              </ul>
+              <!-- <ul class="navbar-nav second_ul ms-auto mb-2 mb-lg-0">
+                          <div class="row nav_col">
+                            <div class="col-md-6 nav_col">
+                              <li class="nav-item">
+                                <a class="nav-link btn_login" aria-current="page" href="#home">Log In</a>
+                              </li>
+                            </div>
+                            <div class="col-md-6 nav_col">                              
+                              <li class="nav-item">
+                                <a class="btn btn_trial" aria-current="page" href="#service">Sign up</a>
+                              </li>
+                            </div>
+                          </div>
+                        </ul> -->
+              <ul class="navbar-nav second_ul_none ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link btn-login" aria-current="page" href="#home">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn_trial" aria-current="page" href="#service">Sign up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- navbar end  -->
+
+  <!-- banner part start here  -->
+  <section class="banner">
+    <video loop autoplay muted id="responsive-video">
+      <source media="(min-width: 481px)" src="videos/banner_bg.mp4">
+      <!-- <source media="(max-width: 480px)" src="videos/banner_mobile_bg.avif"> -->
+    </video>
+    <div class="container" style="min-height: 95vh;">
+      <div class="row" style="min-height: 80vh; align-items: center;">
+        <div class="col-md-6">
+          <div class="banner_content">
+            <h1>Making Commerce Better for Everyone</h1>
+            <p>Shopify is supporting the next generation of entrepreneurs, the world’s biggest brands, and everyone in
+              between</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#" class="btn_free_trial">Start Free Trial</a>
+            </div>
+            <div class="col-md-6">
+              <p class="b_text">Start for free, then get your first 3 months for $1/mo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href="#" class="btn_story">Watch the Shopify story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner part end here  -->
+
+  <!-- about part start here  -->
+  <div class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 maps">
+          <div id="chartdiv"></div>
+        </div>
+        <div class="col-md-7">
+          <h1 class="wow fadeIn">Discover why millions of entrepreneurs chose Shopify to build their business —
+            <span>from hello world to IPO.</span>
+          </h1>
+          <div class="row mt-5">
+            <div class="col-6">
+              <div class="a_content">
+                <h2>Millions</h2>
+                <p>of merchants worldwide</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="a_content">
+                <h2> <span class="counter">060</span> +</h2>
+                <p>Cooperative brand</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-6">
+              <div class="a_content">
+                <h2> <span class="counter">10</span> %</h2>
+                <p class="wow fadeIn">of total UK agent</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="a_content">
+                <h2><span>$</span> <span class="counter">041</span>b+ <span>usd</span></h2>
+                <p class="wow fadeIn">Global agency sales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10 m-auto">
+          <div class="brands owl-carouselthree owl-carousel">
+            <div class="ban_icon ">
+              <img src="images/brands/brands (1).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (2).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (3).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (4).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (5).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (6).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (7).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (8).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (9).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (10).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (11).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (12).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (13).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (14).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (15).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (16).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (17).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (18).png" class="img-fluid" alt="">
+            </div>
+            <div class="ban_icon">
+              <img src="images/brands/brands (19).png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about part end here  -->
+  <!-- explore the world part start here  -->
+  <div class="container py-5">
+    <h1 class="title_commerce wow fadeIn">Explore The largest commerce comunity</h1>
+    <div class="owl-carouselOne owl-carousel">
+      <div class="ex_content">
+        <a href="#">
+          <img src="images/parent icon.svg" class="" alt="">
+          <h2 class="wow fadeIn">Major </h2>
+          <p class="wow fadeIn" style="font-size: 13px; text-align:left;">More the 800 professional service teams With a
+            professional service team of more the 800 people, covering all-round service needs from technology,
+            operation, marketing to warehousing, logistic,and customer service</p>
+        </a>
+      </div>
+      <div class="ex_content">
+        <a href="#">
+          <img src="images/developerIcon.svg" class="" alt="">
+          <h2 class="wow fadeIn">Developers </h2>
+          <p class="wow fadeIn" style="font-size: 13px; text-align:left;">With the rapid development of global
+            e-commerce and continuous improvement, the ERP/WMS-centric e-commerce system continues to bring innovation
+            and continuous optimization to the industry</p>
+        </a>
+      </div>
+      <div class="ex_content">
+        <a href="#">
+          <img src="images/exploreIcon.svg" class="" alt="">
+          <h2 class="wow fadeIn">Data </h2>
+          <p class="wow fadeIn" style="font-size: 13px; text-align:left;">With a mature data service foundation,
+            accurate introduction, industry data tracking, data mining, in-depth management, online and offline data
+            promotion</p>
+        </a>
+      </div>
+      <div class="ex_content">
+        <a href="#">
+          <img src="images/loopicon.svg" class="" alt="">
+          <h2 class="wow fadeIn">Experience </h2>
+          <p class="wow fadeIn" style="font-size: 13px; text-align:left;">With 16 years of experience in the industry,
+            he has provided e-commerce system solutions for many well-known international brands, and has a number of
+            independent research and development software to provide precise services</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- explore the world part end here  -->
+  <!-- your store your way part start here  -->
+  <section class="build">
+    <div class="container py-5">
+      <h1 class="title_commerce wow fadeIn">Build An Online store</h1>
+      <div class="ur_str">
+        <h1 class="titleTwo wow fadeIn"> Your store, Your Way</h1>
+        <div class="owl-carouselTwo owl-carousel">
+          <div class="ur_video">
+            <video src="videos/Store UI -US-.mp4" autoplay muted></video>
+          </div>
+          <div class="ur_video">
+            <video src="videos/Themes.mp4" autoplay muted></video>
+          </div>
+          <div class="ur_video">
+            <video src="videos/Apps.mp4" autoplay muted></video>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="str_cnt">
+            <h2 class="wow fadeIn">Select the brand online shop you want to open</h2>
+            <p class="wow fadeIn">More than 60 international well-known brand are available through authorized
+              dropshipping on the platfrom including SONY, CASIO, LEGO, DYSON, BMW, BOSS HUGO. etc.</p>
+            <button>Brand Store<i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="str_cnt">
+            <h2 class="wow fadeIn">Choose a store agent operation service</h2>
+            <p class="wow fadeIn">A comprehennsive operation package covers every asShopifyt of service delivery,
+              including technology, operations, marketing, warehousing, and logistics.</p>
+            <button>Start operating service<i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="str_cnt">
+            <h2 class="wow fadeIn">Lavel up the brands</h2>
+            <p class="wow fadeIn">Open more brand stores, you can get more sales, and act as an agent to sell products
+              at all products at all prices of the beand.</p>
+            <button>Brand agent operation service<i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- your store your way part end here  -->
+  <!-- SALES CHANNELS section start here  -->
+  <section class="sale_cannels py-5">
+    <div class="container">
+      <h1 class="title_commerce wow fadeIn">PARTNER CHANNELS</h1>
+      <div class="mail_chimp">
+        <div class="row py-5">
+          <div class="col-md-6">
+            <h1 class="wow fadeIn">Partners around the world</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="wow fadeIn">Recruit partners to help you distribute your products and obtain distributiobn
+              benefits.</p>
+            <div class="mail_form">
+              <form action="">
+                <label for="">Start inviting.</label>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="owl-carouselfour owl-carousel">
+            <div class="sale_img">
+              <img src="images/sellOne.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="sale_img">
+              <img src="images/sellTwo.png" class="img-fluid" alt="">
+            </div>
+            <div class="sale_img">
+              <img src="images/sellThree.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- SALES CHANNELS section end here  -->
+  <!-- checkout section start here  -->
+  <section class="checkout py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="video">
+            <video id="ban_video" src="videos/checkoutUS.mp4" autoplay muted loop class="img-fluid"></video>
+
+          </div>
+        </div>
+        <div class="col-md-6 justify-content-center align-items-center">
+          <h1 class="title_commerce mt-5">RESRUIT PARTNER STORE TO GET MORE BENEFITS</h1>
+          <div class="check">
+            <h1 class="wow fadeIn">One time recruitment permanent income</h1>
+            <p class="wow fadeIn">The global store manager is recruiting partner stores, and set up the benefit of
+              recruiting partners, allowing you and your frinds amd family to join Shopify, build a Shopify partner
+              team, and obtain high partner team benefits.</p>
+          </div>
+          <div class="mail_form">
+            <form action="">
+              <label for="">Start recruit a partner store manager</label>
+              <button><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- checkout section end here  -->
+  <!-- point to sell part start here  -->
+  <section class="poin_sell py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 justify-content-center align-items-center">
+          <div class="check">
+            <h1 class="wow fadeIn">The official website lets you know everything about the Shopify platform</h1>
+            <p class="wow fadeIn">From history, and present, to the future</p>
+          </div>
+          <div class="mail_form">
+            <form action="">
+              <label for="">Meet Shopify history</label>
+              <button><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/pointTosell.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- point to sell part end here  -->
+
+  <!-- BUILT-IN MARKETING TOOLS section start here  -->
+  <section class="marketing py-5">
+    <div class="container">
+      <h1 class="title_commerce wow fadeIn">BUILT-IN MARKETING TOOLS</h1>
+      <div class="mail_chimp">
+        <div class="row py-5">
+          <div class="col-md-6">
+            <h1 class="wow fadeIn">From first touch to full funnel</h1>
+          </div>
+          <div class="col-md-6">
+
+            <div class="mail_form">
+              <form action="">
+                <label for="">Start Selling</label>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-6">
+          <div class="market_content">
+            <div class="row " onclick="playVideo(1)">
+              <div class="col-2">
+                <img src="images/Button - 1 of 3.png" alt="">
+              </div>
+              <div class="col-10">
+                <div class="row ">
+                  <div class="col">
+                    <div class="m_cnt">
+                      <h1 class="wow fadeIn">Reach New Leads</h1>
+                      <p class="wow fadeIn">Find new shoppers with the SEO, social media, and content marketing tools
+                        that help you reach customers where they are.</p>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row " onclick="playVideo(2)">
+              <div class="col-2">
+                <img src="images/Button - 2 of 3.png" alt="">
+              </div>
+              <div class="col-10">
+                <div class="row">
+                  <div class="col">
+                    <div class="m_cnt wow fadeIn">
+                      <h1>Engage with customers</h1>
+                      <p>Build custom email campaigns, set automations to serve every segment, and connect with
+                        customers on the go with integrated messaging tools.</p>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row " onclick="playVideo(3)">
+              <div class="col-2">
+                <img src="images/Button - 3 of 3.png" alt="">
+              </div>
+              <div class="col-10">
+                <div class="row ">
+                  <div class="col">
+                    <div class="m_cnt wow fadeIn">
+                      <h1>Data you can build on</h1>
+                      <p>Take control of your customer data to build custom audiences and explore the customer insights
+                        that drive ongoing growth.</p>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 videos">
+          <video id="video1" autoplay src="videos/marketingOne.mp4" class="img-fluid"></video>
+          <video id="video2" autoplay src="videos/marketingTwoe.mp4" class="img-fluid"></video>
+          <video id="video3" autoplay src="videos/marketingThree.mp4" class="img-fluid"></video>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+  <!-- BUILT-IN MARKETING TOOLS section end here  -->
+
+  <!-- CENTRALIZED BUSINESS OPERATIONS section start here  -->
+  <section class="marketing y-5">
+    <div class="container">
+      <div class="mail_chimp">
+        <div class="row py-5">
+          <div class="col-md-6 wow fadeIn">
+            <h1>See videos and photos of Shopify by people around the word</h1>
+          </div>
+          <div class="col-md-6">
+            <div class="mail_form">
+              <form action="">
+                <label for="">Start</label>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+      <!-- meet the people part start here  -->
+      <section class="meet_people py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="m_left">
+                <div class="l_top">
+                  <img src="images/r_top.png" class="img-fluid" alt="">
+                </div>
+                <div class="l_bottom">
+                  <img src="images/l_bottom.png" class="img-fluid" alt="">
+                </div>
+                <div class="l_mid">
+                  <img src="images/r_mid.png" class="img-fluid" alt="">
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center text-center">
+              <div class="meet_text wow fadeIn">
+                <h4>marchart observe</h4>
+                <h1>Meet <br> The people who chose the shopify</h1>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="m_right">
+                <div class="r_top">
+                  <img src="images/r_top.png" class="img-fluid" alt="">
+                </div>
+                <div class="r_bottom">
+                  <img src="images/l_bottom.png" class="img-fluid" alt="">
+                </div>
+                <div class="r_mid">
+                  <img src="images/r_mid.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- meet the people part end here  -->
+
+      <!-- video bannar part start here  -->
+      <div class="b_video py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="video-wrapper">
+                <div class="video-container" id="video-container">
+                  <video controls id="video" preload="metadata">
+                    <source src="videos/Muck N Brass- The Switch -EN- (1).mp4" type="video/mp4">
+                  </video>
+                  <span id="overlay "></span>
+                  <h1 class="wow fadeIn">Muck N Brass</h1>
+                  <p class="wow fadeIn">Zoey, Founder</p>
+
+                  <div class="play-button-wrapper">
+                    <div title="Play video" class="play-gif" id="circle-play-b">
+                      <!-- SVG Play Button -->
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- video bannar part end here  -->
+
+      <!-- testimonial slider part start here  -->
+      <section class="testimonial py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="slider custom1 owl-carousel">
+
+                <div class="testi_slide">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_content">
+                        <h1>Shopify helped me take something that I put my heart and soul into and share it with people
+                          that need it and find it useful.</h1>
+                        <h2>Satya</h2>
+                        <p>Patrice Mousseau — Owner</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="img_part">
+                        <img src="images/sliderOne.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testi_slide">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_content">
+                        <h1>Shopify helped me take something that I put my heart and soul into and share it with people
+                          that need it and find it useful.</h1>
+                        <h2>Satya</h2>
+                        <p>Patrice Mousseau — Owner</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="img_part">
+                        <img src="images/sliderOne.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testi_slide">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_content">
+                        <h1>Shopify helped me take something that I put my heart and soul into and share it with people
+                          that need it and find it useful.</h1>
+                        <h2>Satya</h2>
+                        <p>Patrice Mousseau — Owner</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="img_part">
+                        <img src="images/sliderOne.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testi_slide">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_content">
+                        <h1>Shopify helped me take something that I put my heart and soul into and share it with people
+                          that need it and find it useful.</h1>
+                        <h2>Satya</h2>
+                        <p>Patrice Mousseau — Owner</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="img_part">
+                        <img src="images/sliderOne.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial part end here  -->
+
+      <!-- support part start here  -->
+      <section class="support py-5">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-md-6 m-auto">
+              <div class="big_title wow fadeIn">
+                <h2>SHOPIFY SUPPORT </h2>
+                <h1>The help you need, when you need it</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-6">
+              <div class="support_content wow fadeIn">
+                <img src="images/div.mb-8.png" class="img-fluid" alt="">
+                <h1>Blog</h1>
+                <p>Get all the marketing and business strategy tips you need to help you run an online business.</p>
+                <a href="#" class="btn btn-read">read <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="support_content wow fadeIn">
+                <img src="images/div.mb-8 (1).png" class="img-fluid" alt="">
+                <h1>Online Course</h1>
+                <p>Learn tried-and-tested business tips with instant access to lessons from successful entrepreneurs.
+                </p>
+                <a href="#" class="btn btn-read">read <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="support_content wow fadeIn">
+                <img src="images/div.mb-8 (2).png" class="img-fluid" alt="">
+                <h1>Community</h1>
+                <p>Connect with a community of brands, partners, and fellow merchants who understand Shopify.</p>
+                <a href="#" class="btn btn-read">read <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="support_content wow fadeIn">
+                <img src="images/div.mb-8 (3).png" class="img-fluid" alt="">
+                <h1>Help center</h1>
+                <p>Find answers with a dedicated helpdesk resource full of articles and videos from our Support team.
+                </p>
+                <a href="#" class="btn btn-read">read <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- support part end here  -->
+
+      <!-- grow your busines part start here  -->
+      <section class="grow_business py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 m-auto text-center">
+              <div class="grow_content py-5 wow fadeIn">
+                <h1>Grow your <br>
+                  business here</h1>
+                <p>Whether you want to sell products down the street or around the world, we have all the tools you
+                  need.</p>
+                <a href="#" class="btn btn_trial">see free trial</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- grow your business here part end here  -->
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="https://bfintal.github.io/Counter-Up/jquery.counterup.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+      <script src="js/mixitup.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/pusePlay.js"></script>
+      <script src="js/playVideos.js"></script>
+      <!-- <script src="js/slider.js"></script> -->
+      <script>
+        var navbar = document.querySelector('nav')
+        window.onscroll = function () {
+          // pageYOffset or scrollY
+          if (window.pageYOffset > 0) {
+            navbar.classList.add('scrolled')
+          } else {
+            navbar.classList.remove('scrolled')
+          }
+        }
+        // marque stop and start 
+        $(function () {
+          $('marquee').mouseover(function () {
+            $(this).attr('scrollamount', 0);
+          }).mouseout(function () {
+            $(this).attr('scrollamount', 5);
+          });
+        });
+        // owl carousel css
+        $('.owl-carouselOne').owlCarousel({
+          items: 5,
+          loop: true,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 1
+            },
+            1000: {
+              items: 4,
+              loop: true
+            }
+          }
+        })
+        // carousel Two 
+        $('.owl-carouselTwo').owlCarousel({
+          items: 1,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              dot: true
+            },
+            600: {
+              items: 1,
+              dot: true
+            },
+            1000: {
+              items: 1,
+              dot: true
+            }
+          }
+        })
+        //  <!-- three  -->
+        $('.owl-carouselthree').owlCarousel({
+          center: true,
+          items: 3,
+          loop: true
+        })
+        $('.owl-carouselfour').owlCarousel({
+          loop: true,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              dot: true
+            },
+            600: {
+              items: 1,
+              dot: true
+            },
+            992: {
+              items: 3,
+              dot: true
+            }
+          }
+        })
+      </script>
+      <!-- div click video  -->
+      <script src="//unpkg.com/globe.gl"></script>
+      <script>
+        function playVideo(index) {
+          var videos = document.querySelectorAll('.business .videos video');
+          var divs = document.querySelectorAll('.market_content div');
+          for (var i = 0; i < videos.length; i++) {
+            videos[i].pause();
+            videos[i].style.opacity = 0;
+            divs[i].classList.remove('active');
+          }
+          var video = document.querySelector('#video' + index);
+          video.play();
+          video.style.opacity = 1;
+          divs[index - 1].classList.add('active');
+        }
+      </script>
+      <script>
+        $('.custom1').owlCarousel({
+          animateOut: 'slideOutDown',
+          animateIn: 'flipInX',
+          items: 1,
+          margin: 30,
+          smartSpeed: 450,
+          nav: true,
+          loop: true
+        });
+      </script>
+      <!-- globe  -->
+      <script src="https://www.amcharts.com/lib/4/core.js"></script>
+      <script src="https://www.amcharts.com/lib/4/maps.js"></script>
+      <script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+      <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+      <script>
+        // Themes begin
+        am4core.useTheme(am4themes_animated);
+        // Themes end
+        var chart = am4core.create("chartdiv", am4maps.MapChart);
+        // Set map definition
+        chart.geodata = am4geodata_worldLow;
+        // Set projection
+        chart.projection = new am4maps.projections.Orthographic();
+        chart.panBehavior = "rotateLongLat";
+        chart.deltaLatitude = -20;
+        chart.padding(20, 20, 20, 20);
+        // Create map polygon series
+        var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+        // Make map load polygon (like country names) data from GeoJSON
+        polygonSeries.useGeodata = true;
+        //polygonSeries.include = ["BR", "UA", "MX", "CI"];
+        // Configure series
+        var polygonTemplate = polygonSeries.mapPolygons.template;
+        polygonTemplate.tooltipText = "{name}";
+        polygonTemplate.fill = am4core.color("#78e1de");
+        polygonTemplate.stroke = am4core.color("#fff");
+        polygonTemplate.strokeWidth = 0.5;
+        polygonTemplate.cursorOverStyle = am4core.MouseCursorStyle.pointer;
+        polygonTemplate.url = "https://www.datadrum.com/main.php?package={id}";
+        polygonTemplate.urlTarget = "_blank";
+        var graticuleSeries = chart.series.push(new am4maps.GraticuleSeries());
+        graticuleSeries.mapLines.template.line.stroke = am4core.color("#ffffff");
+        graticuleSeries.mapLines.template.line.strokeOpacity = 0.08;
+        graticuleSeries.fitExtent = false;
+        chart.backgroundSeries.mapPolygons.template.polygon.fillOpacity = 0.1;
+        chart.backgroundSeries.mapPolygons.template.polygon.fill = am4core.color("#000");
+        // Create hover state and set alternative fill color
+        var hs = polygonTemplate.states.create("hover");
+        hs.properties.fill = chart.colors.getIndex(0).brighten(1.5);
+        let animation;
+        setTimeout(function () {
+          animation = chart.animate({ property: "deltaLongitude", to: 100000 }, 20000000);
+        }, 3000)
+        chart.seriesContainer.events.on("down", function () {
+          //  animation.stop();
+        })
+      </script>
+      <!-- counter up  -->
+      <script>
+        $('.counter').counterUp({
+          delay: 10,
+          time: 2000
+        });
+        $('.counter').addClass('animated fadeInDownBig');
+        $('h3').addClass('animated fadeIn');
+      </script>
+      <script>
+        function playVideo(index) {
+          var videos = document.querySelectorAll('.marketing .videos video');
+          var divs = document.querySelectorAll('.market_content div');
+          for (var i = 0; i < videos.length; i++) {
+            videos[i].pause();
+            videos[i].style.opacity = 0;
+            divs[i].classList.remove('active');
+          }
+          var video = document.querySelector('#video' + index);
+          video.play();
+          video.style.opacity = 1;
+          divs[index - 1].classList.add('active');
+        }
+      </script>
+      <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+<!-- 
+      <script>
+        function switchVideo() {
+          const video = document.getElementById('responsive-video');
+          if (window.matchMedia('(max-width: 480px)').matches) {
+            // If screen width is <= 480px, show the smaller video
+            video.src = 'videos/banner_mobile_bg.avif';
+
+          } else {
+            // If screen width is > 480px, show the larger video
+            video.src = 'videos/banner_bg.avif';
+          }
+        }
+
+        // Run initially and listen for resize events
+        switchVideo();
+        window.addEventListener('resize', switchVideo);
+
+      </script> -->
+</body>
+
+</html>

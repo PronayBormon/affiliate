@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title  -->
+    <title>Welcome to BrandShop</title>
+
+    <!-- bootstrap 5.3    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- google metarials  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/styles.css"> <!--Styles-->
+
+</head>
+
+<body>
+    <!-- navbar part start here  -->
+    <section class="navBar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/LOGO(1).png" height="60px" alt=""
+                        class="img-fluid"></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="navProfile">
+                                    <img src="images/user(1).png" class="img-fluid" loading="lazy" alt="">
+                                    <!-- <p>Profile</p> -->
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu rounded-0 position-absolute" style="right: 0;
+                        left: auto;">
+                                <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar part end here  -->
+
+    <!-- main section part start here  -->
+    <section class="main_sec py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 m-auto">
+                    <div class="brand_banner">
+                        <img src="images/brandBanner2.jpg" style="width: 100%;" alt="" class="img-fluid">
+                    </div>
+                    <div class="brand_profile_part">
+                        <img src="images/brandLogo.jpg" class="img-fluid" loading="lazy" alt="">
+                        <div>
+                            <h2>BohoLyfe</h2>
+                            <p>World Wide </p>
+                            <a href="#" class="vWeb">Visit website</a>
+                        </div>
+                    </div>
+                    <div class="foot_tags">
+                        <div class="tbox">
+                            <h4>Total Affiliater <br> <strong>5767</strong></h4>
+                        </div>
+                        <div class="tbox">
+                            <h4>Comm. of sale <br> <strong>7.5% </strong></h4>
+                        </div>
+                        <div class="tbox">
+                          <h4>Paid <br> Monthly</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="foot_tags">
+                        <button  class="btn_primary confirm_affi_open mt-3 w-100 rounded-2 py-2">Subscribe</button>
+                            <button class="btn_secondary mt-3 w-100 rounded-2 ">How To start</button>
+                      
+                            <div class="link_box tbox mt-3 py-1">
+                                <a class="privacy_mdal_open h-100">Privacy Policy</a>
+                            </div>
+                    </div>                  
+                    <button class="btn_primary links_affi mt-3 w-100 rounded-2 btViewLinks">View Affiliate Links</button>
+                    
+                </div>
+            </div>
+            <!-- product list part start here  -->
+            <div class="row">
+                <div class="col-md-8 m-auto">
+                    <nav class="btabs">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-products" type="button" role="tab" aria-controls="nav-products"
+                                aria-selected="true">Top Products</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Your earnings</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-products" role="tabpanel"
+                            aria-labelledby="nav-products-tab" tabindex="0">
+                            <!-- top products part start here  -->
+                            <div class="aletMsg">
+                                This Affiliate program is <span class="fw-600">store wide</span>. Products of the store
+                                not
+                                listed here are also eligible for commission
+                            </div>
+                            <div class="bProducts_container">
+                                <div class="brandProduct">
+                                    <a href="#">
+                                        <img src="images/product1.webp" class="img-fluid" loading="lazy" alt="">
+                                        <div class="pro_text">
+                                            <h3>Women's Navy Blue Plain T-shirt</h3>
+                                            <span>7.5% of sale</span>
+                                        </div>
+                                    </a>
+                                    <button class="btn_primary m-auto rounded-4 btViewLinks">View Links</button>
+                                </div>
+                                <div class="brandProduct">
+                                    <a href="#">
+                                        <img src="images/product2.webp" class="img-fluid" loading="lazy" alt="">
+                                        <div class="pro_text">
+                                            <h3>Men's Navy Blue Plain T-shirt</h3>
+                                            <span>7.5% of sale</span>
+                                        </div>
+                                    </a>
+                                    <button class=" btViewLinks btn_primary m-auto rounded-4">View Links</button>
+                                </div>
+                                <div class="brandProduct">
+                                    <a href="#">
+                                        <img src="images/product3.webp" class="img-fluid" loading="lazy" alt="">
+                                        <div class="pro_text">
+                                            <h3>Men's Navy Blue Plain T-shirt</h3>
+                                            <span>7.5% of sale</span>
+                                        </div>
+                                    </a>
+                                    <button class="btn_primary btViewLinks m-auto rounded-4">View Links</button>
+                                </div>
+
+                                <div class="brandProduct">
+                                    <a href="#">
+                                        <img src="images/product1.webp" class="img-fluid" loading="lazy" alt="">
+                                        <div class="pro_text">
+                                            <h3>Women's Navy Blue Plain T-shirt</h3>
+                                            <span>7.5% of sale</span>
+                                        </div>
+                                    </a>
+                                    <button class="btn_primary btViewLinks m-auto rounded-4">View Links</button>
+                                </div>
+                                <div class="brandProduct">
+                                    <a href="#">
+                                        <img src="images/product2.webp" class="img-fluid" loading="lazy" alt="">
+                                        <div class="pro_text">
+                                            <h3>Men's Navy Blue Plain T-shirt</h3>
+                                            <span>7.5% of sale</span>
+                                        </div>
+                                    </a>
+                                    <button class="btn_primary btViewLinks m-auto rounded-4">View Links</button>
+                                </div>
+                                <div class="brandProduct">
+                                    <a href="#">
+                                        <img src="images/product3.webp" class="img-fluid" loading="lazy" alt="">
+                                        <div class="pro_text">
+                                            <h3>Men's Navy Blue Plain T-shirt</h3>
+                                            <span>7.5% of sale</span>
+                                        </div>
+                                    </a>
+                                    <button class="btn_primary btViewLinks m-auto rounded-4">View Links</button>
+                                </div>
+                            </div>
+                            <!-- top product part end hrer  -->
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                            tabindex="0">
+                            <!-- your earnings tab start here  -->
+                            <div class="aletMsg">
+                                You haven't made a sale through your affiliate links for this store yet!
+                            </div>
+                            <!-- your earnings tab end here  -->
+                        </div>
+
+                    </div>
+                    <!-- <div class="bProducts_container">
+                        <div class="brandProduct">
+                            <a href="#">
+                                <img src="images/product1.webp" class="img-fluid" loading="lazy" alt="">
+                                <div class="pro_text">
+                                    <h3>Women's Navy Blue Plain T-shirt</h3>
+                                    <span>7.5% of sale</span>
+                                </div>
+                            </a>
+                            <button class="btn_primary m-auto rounded-4">View Links</button>
+                        </div>
+                        <div class="brandProduct">
+                            <a href="#">
+                                <img src="images/product2.webp" class="img-fluid" loading="lazy" alt="">
+                                <div class="pro_text">
+                                    <h3>Men's Navy Blue Plain T-shirt</h3>
+                                    <span>7.5% of sale</span>
+                                </div>
+                            </a>
+                            <button class="btn_primary m-auto rounded-4">View Links</button>
+                        </div>
+                        <div class="brandProduct">
+                            <a href="#">
+                                <img src="images/product3.webp" class="img-fluid" loading="lazy" alt="">
+                                <div class="pro_text">
+                                    <h3>Men's Navy Blue Plain T-shirt</h3>
+                                    <span>7.5% of sale</span>
+                                </div>
+                            </a>
+                            <button class="btn_primary m-auto rounded-4">View Links</button>
+                        </div>
+
+                        <div class="brandProduct">
+                            <a href="#">
+                                <img src="images/product1.webp" class="img-fluid" loading="lazy" alt="">
+                                <div class="pro_text">
+                                    <h3>Women's Navy Blue Plain T-shirt</h3>
+                                    <span>7.5% of sale</span>
+                                </div>
+                            </a>
+                            <button class="btn_primary m-auto rounded-4">View Links</button>
+                        </div>
+                        <div class="brandProduct">
+                            <a href="#">
+                                <img src="images/product2.webp" class="img-fluid" loading="lazy" alt="">
+                                <div class="pro_text">
+                                    <h3>Men's Navy Blue Plain T-shirt</h3>
+                                    <span>7.5% of sale</span>
+                                </div>
+                            </a>
+                            <button class="btn_primary m-auto rounded-4">View Links</button>
+                        </div>
+                        <div class="brandProduct">
+                            <a href="#">
+                                <img src="images/product3.webp" class="img-fluid" loading="lazy" alt="">
+                                <div class="pro_text">
+                                    <h3>Men's Navy Blue Plain T-shirt</h3>
+                                    <span>7.5% of sale</span>
+                                </div>
+                            </a>
+                            <button class="btn_primary m-auto rounded-4">View Links</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- product list part end here  -->
+        </div>
+    </section>
+    <!-- main section part end here  -->
+
+    <!-- app menu part start here  -->
+    <section class="appMenu">
+        <a href="brands.html">
+            <span class="material-symbols-outlined"> star </span>
+            <p>Brands</p>
+        </a>
+        <a href="earnings.html">
+            <span class="material-symbols-outlined"> trending_up </span>
+            <p>Earnings</p>
+        </a>
+        <a href="index.html">
+            <span class="material-symbols-outlined"> home </span>
+            <p>Home</p>
+        </a>
+        <a href="wallet.html">
+            <span class="material-symbols-outlined"> account_balance_wallet </span>
+            <p>Wallet</p>
+        </a>
+        <a type="button" class="menuOpen">
+            <span class="material-symbols-outlined"> grid_view </span>
+            <p>Menu</p>
+        </a>
+    </section>
+    <!-- menu options  -->
+    <div class="mdal_  mmenu">
+        <div class="mdal_content">
+            <div class="mdal_head bg-white">
+                <div class="w-50"></div>
+                <button class="bt_close text-dark"><i class="fa-solid fa-x"></i></button>
+            </div>
+            <div class="mdal_body">
+
+                <div class="user_sidebar pt-0">
+                    <ul class="pt-0">
+                        <li>
+                            <a href="earnings.html">
+                                <span class="material-symbols-outlined"> trending_up </span>Earnings</a>
+                        </li>
+                        <li>
+                            <a href="activeBrands.html"><span class="material-symbols-outlined"> sell </span>Active
+                                Brands</a>
+                        </li>
+                        <li>
+                            <a href="Wallet.html"><span class="material-symbols-outlined"> account_balance_wallet
+                                </span>Wallet</a>
+                        </li>
+                        <li>
+                            <a href="profile.html"><span class="material-symbols-outlined"> person
+                                </span>Profile</a>
+                        </li>
+                        <li>
+                            <a href="security.html"><span class="material-symbols-outlined"> security
+                                </span>Security</a>
+                        </li>
+                        <li>
+                            <a href="Logout.html"><span class="material-symbols-outlined"> logout
+                                </span>Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- app menu part end here  -->
+
+
+    <!-- footer section start here  -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright ©2024 <a href="https://futuregenit.com" target="_blank">Futuregenit</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end here  -->
+
+    <!-- confirm modal part start here  -->
+    <div class="mdal_  confirm_affi">
+        <div class="mdal_content" style="height: fit-content;">
+            <div class="mdal_head">
+                <h5>Become Affiliate</h5>
+                <button class="bt_close text-dark"><i class="fa-solid text-white fa-x"></i></button>
+            </div>
+            <div class="mdal_body" style="height: fit-content;">
+                <h6>Privacy Policy</h6>
+                <p>This brand doesn't have any special terms and conditions for their affiliate program at this moment.
+                </p>
+                <p>Please note that this can change in the future. We recommend affiliates to review the program TnC
+                    periodically.</p>
+                <button class="btn_primary btnClose w-100 mt-3 rounded-2">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <!-- confirm modal part end here  -->
+
+    <!-- privacy policy modal start here   -->
+    <div class="mdal_  privacy_mdal">
+        <div class="mdal_content" style="height: fit-content;">
+            <div class="mdal_head">
+                <h5>Privacy Policy</h5>
+                <button class="bt_close text-dark"><i class="fa-solid text-white fa-x"></i></button>
+            </div>
+            <div class="mdal_body" style="height: fit-content;">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni autem illo adipisci tempora. Iusto
+                    sit labore alias asperiores impedit laboriosam.</p>
+            </div>
+        </div>
+    </div>
+    <!--privacy policy modal end here  -->
+
+    <!-- share modal links part start here  -->
+    <div class="mdal_ shareLink">
+        <div class="mdal_content">
+            <div class="mdal_head">
+                <h5>Your Links</h5>
+                <button class="bt_close"><i class="fa-solid fa-x"></i></button>
+            </div>
+            <div class="mdal_body">
+                <div class="link_list">
+                    <ul>
+                        <li>
+                            <div class="img_title_l">
+                                <img src="images/facebook-100.png" class="img-fluid" loading="lazy" alt="">
+                                <h6>Facebook</h6>
+                            </div>
+                            <a href="#" target="_blank" class="btn_primary"><span class="material-symbols-outlined">
+                                    share </span>
+                                Share</a>
+                        </li>
+                        <li>
+                            <div class="img_title_l">
+                                <img src="images/twitter-100.png" class="img-fluid" loading="lazy" alt="">
+                                <h6>Twitter</h6>
+                            </div>
+                            <a href="#" target="_blank" class="btn_primary"><span class="material-symbols-outlined">
+                                    share </span>
+                                Share</a>
+                        </li>
+                        <li>
+                            <div class="img_title_l">
+                                <img src="images/instagram-100.png" class="img-fluid" loading="lazy" alt="">
+                                <h6>Instagram</h6>
+                            </div>
+                            <a href="#" target="_blank" class="btn_primary"><span class="material-symbols-outlined">
+                                    share </span>
+                                Share</a>
+                        </li>
+                        <li>
+                            <div class="img_title_l">
+                                <img src="images/whatsapp-100.png" class="img-fluid" loading="lazy" alt="">
+                                <h6>Whatsapp</h6>
+                            </div>
+                            <a href="#" target="_blank" class="btn_primary"><span class="material-symbols-outlined">
+                                    share </span>
+                                Share</a>
+                        </li>
+                        <li>
+                            <div class="img_title_l">
+                                <img src="images/telegram-100.png" class="img-fluid" loading="lazy" alt="">
+                                <h6>Telegram</h6>
+                            </div>
+                            <a href="#" target="_blank" class="btn_primary"><span class="material-symbols-outlined">
+                                    share </span>
+                                Share</a>
+                        </li>
+                        <li>
+                            <div class="img_title_l">
+                                <img src="images/linkedin-100.png" class="img-fluid" loading="lazy" alt="">
+                                <h6>LinkedIn</h6>
+                            </div>
+                            <a href="#" target="_blank" class="btn_primary"><span class="material-symbols-outlined">
+                                    share </span>
+                                Share</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- share modal links part end here  -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--Jquery Cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script> <!--Bootstrap-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menuOpen").click(function () {
+                $(".mmenu").fadeIn("slow");
+            });
+            $(".bt_close").click(function () {
+                $(".mmenu").fadeOut("slow");
+            })
+            // ?
+            $(".privacy_mdal_open").click(function () {
+                $(".privacy_mdal").fadeIn("slow");
+            });
+            $(".bt_close").click(function () {
+                $(".privacy_mdal").fadeOut("slow");
+            })
+            // ?
+            $(".btViewLinks").click(function () {
+                $(".shareLink").fadeIn();
+            });
+            $(".bt_close").click(function () {
+                $(".shareLink").fadeOut();
+            });
+            // ?
+            $(".confirm_affi_open").click(function () {
+                $(".confirm_affi").fadeIn();
+            });
+            $(".bt_close").click(function () {
+                $(".confirm_affi").fadeOut();
+            });
+            $(".btnClose").click(function () {
+                $(".confirm_affi").fadeOut();
+            });
+        })
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $(".carousel_container").owlCarousel({
+                items: 1.2,
+                loop: true,
+                margin: 10,
+                dots: false,
+                // dots: true,
+                // autoplay: true,
+                // autoplayTimeout: 2000,
+                // autoplayHoverPause: true
+            });
+        });
+    </script>
+</body>
+
+</html>
